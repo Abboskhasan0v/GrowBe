@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    vertical-align: bottom;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1210px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.btn {
+    display: inline-block;
+    background: #f25822;
+    color: #fff !important;
+    max-width: 100%;
+    text-align: center;
+    border-radius: 50px;
+}

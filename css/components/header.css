@@ -1,0 +1,38 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.nav .nav__list {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+.nav__logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.nav__logo p {
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+}
+.nav__logo p span {
+    color: #f25822;
+}
+.nav__link {
+    color: #000;
+    font-weight: 500;
+    transition: 0.3s;
+    &:hover {
+        color: #f25822;
+    }
+}
+.nav__btn {
+    width: 120px;
+    padding: 13px 0;
+    font-size: 14px;
+    border-radius: 30px !important;
+}
