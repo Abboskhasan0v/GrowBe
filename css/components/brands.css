@@ -1,0 +1,5 @@
+.brands__cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 0;
+}

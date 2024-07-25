@@ -1,0 +1,76 @@
+.intro .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 577px;
+}
+.intro__content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.intro__image {
+    position: absolute;
+    right: -20%;
+    top: 0;
+}
+.intro__title {
+    font-size: 60px;
+    max-width: 522px;
+    width: 100%;
+}
+.intro__subtitle {
+    max-width: 466px;
+    width: 100%;
+    font-size: 20px;
+    color: #888;
+}
+.intro__btns {
+    margin-top: 20px;
+    display: flex;
+    gap: 27px;
+}
+.intro__start-btn {
+    width: 140px;
+    padding: 16px 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+.intro__watch-btn {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #aaa;
+    font-weight: 600;
+    gap: 15px;
+}
+.intro__watch-btn_icon {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #ddd;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+}
+.intro__hovers {
+    position: absolute;
+    z-index: -1;
+    transition: 0.9;
+}
+.intro__hovers:nth-child(1) {
+    left: -8%;
+    top: 25%;
+}
+.intro__hovers:nth-child(2) {
+    left: 50%;
+    top: 10%;
+}
+.intro__hovers:nth-child(3) {
+    left: 44%;
+    top: 63%;
+}
+.intro__hovers:nth-child(4) {
+    left: -0.2%;
+    top: 31%;
+}

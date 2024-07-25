@@ -26,9 +26,34 @@ img {
 }
 .btn {
     display: inline-block;
-    background: #f25822;
+    /* background: #f25822; */
+    border: 2px solid #f25822;
     color: #fff !important;
     max-width: 100%;
     text-align: center;
     border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+
+    &:hover {
+        color: #f25822 !important;
+        transform: scale(1.02);
+        &::before {
+            transform: scale(0);
+        }
+    }
+
+    &::before {
+        content: '';
+        left: -50%;
+        top: -50%;
+        background: #f25822;
+        position: absolute;
+        width: 200%;
+        height: 200%;
+        z-index: -1;
+        transition: 0.1s;
+        border-radius: 20%;
+    }
 }
