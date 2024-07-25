@@ -1,0 +1,37 @@
+.business {
+    background: #fafafa;
+    position: relative;
+    overflow: hidden;
+}
+.business__bg {
+    position: absolute;
+    top: -34%;
+}
+.business .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 125px 0;
+}
+.business__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.business__title {
+    max-width: 409px;
+}
+.business__subtitle {
+    max-width: 515px;
+}
+.business__image {
+    position: absolute;
+    right: -8%;
+}
+.business__btn {
+    width: 140px;
+    padding: 16px 0;
+    margin-top: 15px;
+
+}

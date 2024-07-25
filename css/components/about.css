@@ -1,0 +1,35 @@
+.about {
+    padding: 100px 0;
+}
+.about .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.about__card {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    gap: 25px;
+    transition: 0.3s;
+
+    &:hover {
+        box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    }
+}
+.about__title {
+    font-size: 24px;
+}
+.about__subtitle {
+    margin-top: -8px;
+    font-size: 15px;
+    line-height: 150%;
+    color: #666;
+    max-width: 310px;
+}
+.about__link {
+    font-size: 11px;
+    line-height: 150%;
+    color: #000;
+    font-weight: 700;
+}
